@@ -1,0 +1,107 @@
+.header{
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: space-between;
+    width: 98.8%;
+    height: 55px;
+    background: linear-gradient(120deg, rgb(188, 205, 211), orange);
+    z-index: 100;
+    border-radius: 100px;
+    border-bottom: solid 1px white;
+}
+.left-section{
+    display: flex;
+}
+.logo img{
+    margin-left: 20px;
+    width: 60px;
+    height: 60px;
+}
+
+.middle-section{
+    display: flex;
+    column-gap: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+}
+.home{
+    cursor: pointer;
+    padding: 10px 10px;
+    transition: background 0.15s, padding 0.15s, border 0.15s;
+}
+.home:hover{
+    background: linear-gradient(120deg, rgb(188, 205, 211), orange);
+    border-left: solid 2px white;
+    border-right: solid 2px white;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.mobile{
+    cursor: pointer;
+    padding: 10px 10px;
+    transition: background 0.15s, padding 0.15s, border 0.15s;
+}
+.mobile:hover{
+    background: linear-gradient(120deg, rgb(188, 205, 211), orange);
+    border-left: solid 2px white;
+    border-right: solid 2px white;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.laptop{
+    cursor: pointer;
+    padding: 10px 10px;
+    transition: background 0.15s, padding 0.15s, border 0.15s;
+}
+.laptop:hover{
+    background: linear-gradient(120deg, rgb(188, 205, 211), orange);
+    border-left: solid 2px white;
+    border-right: solid 2px white;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.accessories{
+    cursor: pointer;
+    padding: 10px 10px;
+    transition: background 0.15s, padding 0.15s, border 0.15s;
+}
+.accessories:hover{
+    background: linear-gradient(120deg, rgb(188, 205, 211), orange);
+    border-left: solid 2px white;
+    border-right: solid 2px white;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.contact{
+    border: none;
+    padding: 10px 10px;
+    cursor: pointer;
+    transition: background 0.15s, padding 0.15s, border 0.15s;
+}
+.contact:hover{
+    background: linear-gradient(120deg, rgb(188, 205, 211), orange);
+    border-left: solid 2px white;
+    border-right: solid 2px white;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.right-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 20px;
+    padding-right: 20px;
+}
+.right-section img{
+    width: 35px;
+}
+.profile-picture img{
+    border-radius: 150px;
+    cursor: pointer;
+}
+.add-to-cart img{
+    width: 25px;
+    cursor: pointer;
+}
